@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formula1.by</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <!--  Start Home Section  -->
+    <div id="home">
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html"><img src="img/websitelogo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#teams">Команды</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#drivers">Гонщики</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Start Image Slider -->
+        <div id="slider" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+                <li data-target="#slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!--Slide 1-->
+                <div class="carousel-item active" style="background-image: url(img/main.jpg)">
+                    <div class="carousel-caption text-center">
+                        <h1>Добро пожаловать</h1>
+                        <h3>Впервые здесь? Жми на кпопку ниже!</h3>
+                        <a class="btn btn-outline-light btn-lg" href="page.html">Жми сюда!</a>
+                    </div>
+                </div>
+                <!--Slide 2-->
+                <div class="carousel-item" style="background-image: url(img/drivers.jpg)">
+                    <div class="carousel-caption text-center">
+                        <h2 style="margin-top: 13%;">Кто ты из гонщиков Формулы-1?</h2>
+                        <a class="btn btn-outline-light btn-lg" href="test.html">Пройти тест</a>
+                    </div>
+                </div>
+                <!--Slide 3-->
+                <div class="carousel-item" style="background-image: url(img/ferrari.png)">
+                    <div class="carousel-caption text-center">
+                        <h2 style="margin-top: 13%;">Как устроен автомобиль Формулы-1?</h2>
+                        <a class="btn btn-outline-light btn-lg" href="howItMade.html">Узнать!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Prev & Next buttons-->
+            <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next " href="#slider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+        <!-- End Image Slider -->
+    </div>
+    <!--End Home Section-->
+
+
+    <!--//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+    <!--Start Teams Section-->
+    <div id="teams">
+        <div class="jumbotron container-fluid">
+            <div class="col-12 text-center">
+                <h3 class="heading">Команды</h3>
+                <div class="heading-underline"></div>
+                <div class="narrow text-center">
+                    <div class="col-12">
+                        <p class="lead">Просто нажми на машину команды, о которой хочешь узнать</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-padding">
+                <!--1-->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="teams">
+                        <a class="teamlist" href="mercedes.html">
+                            <img src="img/teams/mercedes.jpg" alt="">
+                            <div class="teamname">
+                                <h1>Mercedes</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--2-->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="teams">
+                        <a href="ferrari.html">
+                            <img src="img/teams/ferrari.jpg" alt="">
+                            <div class="teamname">
+                                <h1>Ferrari</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--3-->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="teams">
+                        <a href="redbull.html">
+                            <img src="img/teams/redbull.jpg" alt="">
+                            <div class="teamname">
+                                <h1>Red Bull</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--4-->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="teams">
+                        <a href="mclaren.html">
+                            <img src="img/teams/mclaren.jpg" alt="">
+                            <div class="teamname">
+                                <h1>McLaren</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--5-->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="teams">
+                        <a href="renault.html">
+                            <img src="img/teams/renault.jpg" alt="">
+                            <div class="teamname">
+                                <h1>Renault</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--6-->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="teams">
+                        <a href="racingpoint.html">
+                            <img src="img/teams/racing-point.jpg" alt="">
+                            <div class="teamname">
+                                <h1>Racing Point</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--7-->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="teams">
+                        <a href="haas.html">
+                            <img src="img/teams/haas.jpg" alt="">
+                            <div class="teamname">
+                                <h1>Haas</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--8-->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="teams">
+                        <a href="tororosso.html">
+                            <img src="img/teams/tororosso.jpg" alt="">
+                            <div class="teamname">
+                                <h1>Toro Rosso</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--9-->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="teams">
+                        <a href="alfa.html">
+                            <img src="img/teams/alfa.jpg" alt="">
+                            <div class="teamname">
+                                <h1>Alfa Romeo</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--10-->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="teams">
+                        <a href="williams.html">
+                            <img src="img/teams/williams.jpg" alt="">
+                            <div class="teamname">
+                                <h1>Williams</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--End Teams Section-->
+
+
+    <!--//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+    <!--Start Drivers Section-->
+
+    <div id="drivers" class="offset">
+        <div class="col-12 text-center">
+            <h3 class="heading">Гонщики</h3>
+            <div class="heading-underline"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/hamilton.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Льюис</h5>
+                        <h5>Хэмильтон</h5>
+                        <h6>Mercedes</h6>
+                        <button class="btn-lg" id="btnHam">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/bottas.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Валттери</h5>
+                        <h5>Боттас</h5>
+                        <h6>Mercedes</h6>
+                        <button class="btn-lg" id="btnBot">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/vettel.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Себастьян</h5>
+                        <h5>Феттель</h5>
+                        <h6>Ferrari</h6>
+                        <button class="btn-lg" id="btnVet">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/leclerc.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Шарль</h5>
+                        <h5>Леклер</h5>
+                        <h6>Ferrari</h6>
+                        <button class="btn-lg" id="btnLec">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Start Dropdown Blocks Section-->
+        <div id="divId" class="row" style="display: none">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/verstappen.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Макс</h5>
+                        <h5>Ферстаппен</h5>
+                        <h6>Red Bull</h6>
+                        <button class="btn-lg" id="btnVer">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/albon.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Алекс</h5>
+                        <h5>Албон</h5>
+                        <h6>Red Bull</h6>
+                        <button class="btn-lg" id="btnAlb">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/riccardo.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Даниэль</h5>
+                        <h5>Риккардо</h5>
+                        <h6>Renault</h6>
+                        <button class="btn-lg" id="btnRic">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/hulk.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Нико</h5>
+                        <h5>Хюлькенберг</h5>
+                        <h6>Renault</h6>
+                        <button class="btn-lg" id="btnHul">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/sainz.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Карлос</h5>
+                        <h5>Сайнс</h5>
+                        <h6>McLaren</h6>
+                        <button class="btn-lg" id="btnSai">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/norris.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Ландо</h5>
+                        <h5>Норрис</h5>
+                        <h6>McLaren</h6>
+                        <button class="btn-lg" id="btnNor">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/perez.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Серхио</h5>
+                        <h5>Перез</h5>
+                        <h6>Racing Point</h6>
+                        <button class="btn-lg" id="btnPer">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/stroll.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Лэнс</h5>
+                        <h5>Стролл</h5>
+                        <h6>Racing Point</h6>
+                        <button class="btn-lg" id="btnStr">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/kvyat.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Даниил</h5>
+                        <h5>Квят</h5>
+                        <h6>Toro Rosso</h6>
+                        <button class="btn-lg" id="btnKvy">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/gasly.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Пьер</h5>
+                        <h5>Гасли</h5>
+                        <h6>Racing Point</h6>
+                        <button class="btn-lg" id="btnGas">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/kimi.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Кими</h5>
+                        <h5>Райконен</h5>
+                        <h6>Alfa Romeo</h6>
+                        <button class="btn-lg" id="btnRai">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/giovinazzi.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Антонио</h5>
+                        <h5>Джовинацци</h5>
+                        <h6>Alfa Romeo</h6>
+                        <button class="btn-lg" id="btnGio">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/grosjean.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Роман</h5>
+                        <h5>Грожан</h5>
+                        <h6>Haas</h6>
+                        <button class="btn-lg" id="btnGro">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/maga.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Кевиг</h5>
+                        <h5>Магнуссен</h5>
+                        <h6>Haas</h6>
+                        <button class="btn-lg" id="btnMag">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/russel.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Джордж</h5>
+                        <h5>Рассел</h5>
+                        <h6>Williams</h6>
+                        <button class="btn-lg" id="btnRus">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="img/drivers/kubica.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Роберт</h5>
+                        <h5>Кубица</h5>
+                        <h6>Williams</h6>
+                        <button class="btn-lg" id="btnKub">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center"><button class="btn-lg" href="#" onclick="anichange('#divId'); return false">
+                <h3>Показать больше/Скрыть</h3>
+            </button></div>
+        <!--End Dropdown Blocks Section-->
+    </div>
+
+    </div>
+    <!--End Drivers Section-->
+
+    <!--//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <!--Start Contact Section-->
+    <div id="contact" class="offset">
+        <footer>
+            <div class="row justify-content-center">
+                <div class="col-md-5 text-center">
+                    <img src="img/websitelogo-footer.png" alt="">
+                    <p>Формула-1 для Всех!</p>
+                    <h6>Контакты:</h6>
+                    <p>+375(29) 391-80-08 <br>alexvolchkou@gmail.com</p>
+                    <a href="https://www.facebook.com/aaxeley" target="_blank"><i class="fab fa-facebook-square"
+                            aria-hidden="true"></i></a>
+                    <a href="https://vk.com/aaxeley" target="_blank"><i class="fab fa-vk"></i></a>
+                    <a href="https://www.instagram.com/aaxeley/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <hr class="socket">
+            </div>
+        </footer>
+    </div>
+    <!--End Contact Section-->
+
+
+    <!--//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+    <!--Start Popup blocks-->
+    <!--HAMILTON INFO-->
+    <div id="hamInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/ham-info.jpg" alt="">
+                <h2 class="text-center">Льюис Хэмильтон</h2>
+            </p>
+            <p>Льюис Хэмилтон родился 7 января 1985 года в городе Стивенидж, графство Хартфордшир. По сведениям СМИ, его
+                назвали в честь известного американского спринтера Карла Льюиса, но сам гонщик это опровергает. Хэмилтон
+                родился в смешанной семье: родители отца Энтони Хэмилтона были темнокожими эмигрантами из Гренады, мать
+                Кармен Ларбалестьер — белая британка. Из-за этого в начале карьеры Хэмилтон сталкивался с нападками на
+                расистской почве. Родители развелись, когда Льюису было два года, и до 12 лет он прожил с матерью. </p>
+            <p>
+                Интерес к гонкам проявился у Хэмилтона с самого детства, и в этом его поддерживал отец, который сначала
+                покупал ему радиоуправляемые машинки, а затем приобрел карт. В 1992 году Льюис занял второе место в
+                местном чемпионате. Хэмилтон обучался в католической школе, где занимался вместе с полузащитником
+                сборной Англии по футболу Эшли Янгом. По словам Хэмилтона, являющегося болельщиком "Арсенала", если бы
+                не "Формула-1", он занялся бы футболом или крикетом.</p>
+            <p>
+                В декабре 1995 года на церемонии вручения автоспортивных наград он встретился с руководителем
+                "Макларена" Роном Деннисом и сказал: "Я хочу выступать за вашу команду, хочу выступать за "Макларен".
+                Менее чем через три года он был приглашен в программу подготовки молодых гонщиков "Макларена" и концерна
+                Mercedes-Benz. Благодаря контракту, заключенному в возрасте 13 лет, Хэмилтон считается самым молодым
+                гонщиком, который смог впоследствии попасть в "Формулу-1".</p>
+            <p>
+                В 2000 году Хэмилтон впервые встретился с Нико Росбергом, они вместе выступали в картинге. В 2001 году
+                Хэмилтон начал выступления в сериях гонок на болидах с открытыми колесами, через два года он стал
+                победителем британской "Формулы Рено 2.0". Еще через два года он стал победителем европейской серии
+                "Формулы-3", где опередил будущих пилотов "Ф-1" немцев Адриана Сутиля и Себастьяна Феттеля. В 2006 году
+                он стал победителем серии GP2, и в то время вовсю шли разговоры о том, кто придет в "Макларен" вместо
+                Хуана Пабло Монтойи и Кими Райкконена. В итоге места призовых пилотов доверили Хэмилтону и действующему
+                чемпиону мира Фернандо Алонсо.</p>
+
+            <p>В первом для себя Гран-при "Ф-1" в Австралии Хэмилтон финишировал третьим и стал 13-м пилотом в истории
+                "Королевских гонок", сумевшим подняться на подиум в дебютной гонке. Уже спустя несколько этапов Хэмилтон
+                стал лидером общего зачета, побив рекорд Брюса Макларена как самый молодой гонщик, когда-либо
+                лидировавший в чемпионате. Вскоре Хэмилтон одержал свою первую победу в карьере (Гран-при Канады).</p>
+
+            <p>На старте того сезона он установил еще один не побитый до сих пор рекорд — по количеству подиумов подряд
+                со старта карьеры в "Ф-1", у британца их девять. Всего в дебютный год на счету британца четыре победы,
+                шесть поулов и второе место в личном зачете, он уступил всего одно очко финну Кими Райкконену из
+                "Феррари". Причем за два Гран-при до конца сезона Хэмилтон опережал своего соперника на 17 очков.</p>
+
+            <p>В 2008 году Хэмилтон вновь боролся за титул: пять побед и семь поулов перед последней гонкой, в
+                результате чего преимущество британца над Фелипе Массой из "Феррари" составляло семь очков. На последнем
+                этапе сезона в Бразилии Масса выиграл поул перед родными трибунами, а затем одержал победу в гонке.
+                Несколько мгновений после финиша бразильцы и итальянцы ликовали, но лишь до тех пор, пока Хэмилтон не
+                пересек финишную черту. На последнем круге он обогнал Тимо Глока из "Тойоты" в борьбе за пятое место и
+                выиграл свой первый чемпионский титул.</p>
+            <p> Затем результаты команды и самого Хэмилтона пошли на спад, в 2009 и 2011 годах он заканчивал сезон на
+                пятом месте, а в 2010-м, 2012-м, а также в 2013-м уже в составе "Мерседеса" становился четвертым. 28
+                сентября 2012 года было объявлено о том, что Хэмилтон покидает "Макларен". Британец заключил трехлетний
+                контракт с "Мерседесом", где его партнером стал Росберг. Свою первую победу в новой команде Хэмилтон
+                одержал на Гран-при Венгрии-2013.</p>
+            <p> С самого начала сезона 2014 года в условиях перехода на турбированные двигатели V6 пилоты "Мерседеса"
+                имели колоссальное преимущество над соперниками. Благодаря победе на Гран-при Сингапура Хэмилтон смог
+                захватить лидерство в общем зачете, опередив Росберга, который лидировал с первого этапа. Победа на
+                Гран-при США стала для Хэмилтона 32-й в карьере — это лучший результат среди британских гонщиков "Ф-1".
+                Хэмилтон стал 16-м пилотом в истории "Формулы-1" и четвертым британцем, сумевшим выиграть титул более
+                одного раза.</p>
+            <p> 23 ноября 2014 года в гонке на Гран-при Абу-Даби Хэмилтон после старта со второй позиции смог одержать
+                победу и стал двукратным чемпионом. Сейчас Льюис является шестикратным чемпионом Гран-при Ф-1, уступая в
+                этом показателе только Михаэлю
+                Шумахеру, на счету которого 8 титулов</p>
+        </div>
+    </div>
+
+    <!--BOTTAS INFO-->
+    <div id="botInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/bot-info.jpg" alt="">
+                <h2 class="text-center">Вальтери Боттас</h2>
+            </p>
+            <p>Этот финский гонщик появился на свет в городе Настоле 28.08.1989 г.</p>
+            <p>
+                В самом начале XXI века Валттери Боттас занялся гонками на картинге. Начав свою карьеру именно там, он
+                не раз выигрывал соревнования в Финляндии и Европе, а также Intercontinental A.</p>
+            <p>
+                Впервые на гонках Формульного формата Валттери Боттас пробует свои силы в 2007 году за рулем
+                Формулы-Renault, оснащенной 2-литровым мотором. Сразу же показав неплохой результат и высокую скорость,
+                гонщик без труда выигрывает 3 из 4 заездов в зимнем чемпионате британской серии. Кроме того, в личном
+                зачете североамериканского кубка он занимает 3 место. Уже через год, имея практический опыт и знание
+                трасс, он завоевывает североевропейский кубок и показывает себя на Еврокубке, став лидером и там.</p>
+            <p>
+                Карьеру на Формуле-3 Валттери Боттас начинает с 2009 года. Он подписывает договор с ART Grand Prix. Эта
+                команда активно участвует в знаменитых соревнованиях, включая Евросерию, британскую серию, Гран При
+                Макао и F3 Masters. Боттас показывает замечательные результаты и становится лидером во многих гонках.
+                Вторая попытка не так успешна, но в итоговом зачете он занимает 3 место, что для дебютанта считается
+                отличным результатом.</p>
+
+            <p> В июне того же года гонщик выигрывает соревнования в Зандворте.
+                В сезоне евроверсии, будучи фаворитом, он занял лишь 3 место. Кроме недостаточного опыта, на невысокий
+                результат повлияло техническое несовершенство автомобиля Боттаса.</p>
+
+            <p>Видя в финне перспективного гонщика, администрация активно тестирует его для участия в Формульных
+                заездах. В итоге он оказывается в «седле» кокпита команды Williams F1, в котором проводит весь 2012 год
+                и участвует в регулярных тренировках Гран При. Уже через год Валттери Боттас становится пилотом
+                британской команды, техника которой не дает гонщику проявить весь свой потенциал.</p>
+
+            <p>Из-за этого некоторые пилоты покинули коллектив, но Валттери Боттас продлил контракт еще на 1 год и не
+                прогадал. Williams занялась техническим переоснащением, сконструировав отличные гоночные шасси и перейдя
+                на двигатели от Mercedes. В итоге Боттас на австрийском Гран При смог занять призовое место. При этом он
+                занял 4 место в личном зачете и 3 – в кубке конструкторов. После этого гонщик еще 5 раз восходил на
+                подиум победителей, постоянно совершенствуя свой профессионализм.</p>
+        </div>
+    </div>
+
+    <!--VETTEL INFO-->
+    <div id="vetInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/vet-info.jpg" alt="">
+                <h2 class="text-center">Себастьян Феттель</h2>
+            </p>
+            <p>К Себастьяну Феттелю отлично подходит эпитет «самый». Он - самый молодой автогонщик, выигравший Гран –
+                при «Формулы1». Самый молодой тестовый пилот BMW. Однако не пропадает уверенность, что все достижения у
+                Феттеля еще впереди. Ведь ему всего 22 года.</p>
+            <p>
+                Карьеру автогонщика Феттель начал в 1995 году. В чемпионате юниоров по картингу в Монако Себастьян
+                Феттель занял первое место. В 2003 он победил в чемпионате «Немецкой Формулы БМВ»</p>
+            <p>
+                В 2005 году Себастьян Феттель стал «новичком года» а Евросерии «Формулы 3» (тогда он выступал за «ASL
+                Mucke Motosport»). Молодой автогонщик закончил сезон пятым, но не стоит забывать о том, что в то время
+                на подиуме безраздельно господствовал Льюис Хэмилтон. В следующем сезоне Себастьян был уже вторым, и это
+                притом, что уже на втором этапе «Формулы 3» он получил серьезную травму – ему чуть было не отрезало
+                палец. После этого несчастного случая многие были уверены, что автогонщик не сможет продолжить
+                чемпионат, однако уже через неделю Феттель вышел на трассу и пришел к финишу третьим. В 2007 году
+                Себастьян продолжил выступление в «Мировой серии Рено», и перед своим уходом в «Формулу1» лидировал в
+                зачете.</p>
+            <p>
+                В 2007 на Гран-при Канады «Формулы1» один из пилотов «BMW» получил травму, и его решено было заменить
+                20-летним Себастьяном Феттелем. Тогда он пришел к финишу седьмым, а начиная с Гран-при Венгрии, стал
+                постоянным пилотом команды «Toro Rosso».</p>
+            <p>
+                Старт «Формулы1» сезона 2008 года Феттель провалил – в четырех гонках он ни разу так и не смог доехать
+                до финиша. Лишь в Гран-при Италии он смог выиграть поул – это сделало Себастьяна Феттеля самым молодым
+                обладателем поул-позиции в истории «Формулы1».</p>
+
+            <p> В 2009 году Феттель заменил в команде «Ред Булл» Дэвида Култхорда. Уже на первом этапе в Австралии
+                молодой автогонщик слишком агрессивно боролся за второе место с Робертом Кубицей, в результате чего оба
+                пилота сошли с дистанции за два круга до финиша. Феттель был оштрафован и откатился на 13-е стартовое
+                место. В следующем Гран-при Малайзии он снова не смог добраться до финиша – у Себастьяна заглох мотор.
+                Лишь в Гран-при Китая Феттелю удалось принести своей команде первую победу. На Гран-при Монако гонщик
+                протестировал новый боллид с двойным диффузором, но дебют оказался неудачным - всю гонку машину
+                преследовали технические проблемы, и в результате Себастьян закончил этап у отбойника. На гонке в
+                Сильверстоуне Феттель впервые в своей карьере добился хет-трика (выиграл поул, победил и проехал самый
+                быстрый круг).</p>
+
+            <p>Чемпион «Формулы1» Микка Хаккинен не сомневается в талантах Себастьяна Феттеля. «Себастьян действительно
+                может стать чемпионом, - сказал Хаккинен. – Он хотя и очень молодой, но уже очень быстрый. В течение
+                следующих лет он обязательно завоюет титул».</p>
+        </div>
+    </div>
+
+    <!--LECLERC INFO-->
+    <div id="lecInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/lec-info.jpg" alt="">
+                <h2 class="text-center">Шарль Леклер</h2>
+            </p>
+            <p>Шарль Леклерк появился на свет 16 октября 1997 года в городе Монте-Карло, Княжество Монако.
+                Профессиональный автогонщик.</p>
+            <p>
+                Гоночную карьеру Шарль начинал с картинга, в котором дебютировал в 2005 году и сразу же стал победителем
+                французского чемпионата PACA Championship. Повторить аналогичное достижение юному монегаску удалось в
+                2006 и 2008 годах, а в 2009-ом он триумфировал в серии French Cadet Championship.</p>
+            <p>
+                В 2010 году Шарль Леклерк попробовал свои силы в классе KF3 и в этом же году одержал победу в Junior
+                Monaco Kart Cup.</p>
+            <p>
+                В 2011 году Шарлю покорились сразу несколько вершин: Мировой кубок CIK-FIA KF3, CIK-FIA Karting Academy
+                Trophy и ERDF Junior Kart Masters.</p>
+            <p>
+                В 2012 году Леклерк, заручившись поддержкой автогоночной организации ART Grand Prix, стартовал в
+                соревнованиях класса KF2. Шарль стал первым в WSK Euro Series, а в CIK-FIA European KF2 Championship и
+                CIK-FIA Under 18 World Karting Championship он удостоился звания вице-чемпиона.</p>
+
+            <p> В сезоне-2013, ставшем для Леклерка последним в картинге, Шарль победил в South Garda Winter Cup
+                (категория KZ2), но перед этим занял второе место в CIK-FIA World KZ Championship.</p>
+
+            <p>В 2014 году Шарль Леклерк впервые в карьере принял участие в гонках на одноместных болидах, выйдя на
+                старты в Европейском кубке Formula Renault 2.0 и Альпийской серии Formula Renault 2.0 (в составе
+                британской команды Fortec Motorsports). В Еврокубке монегаск участвовал лишь в шести гонках, трижды
+                показав второй результат, а во втором чемпионате провёл полноценный сезон, заняв вторую позицию в
+                итоговой таблице со 199 зачётными баллами в активе.</p>
+
+            <p>Сезон 2015 года Шарль провёл в Европейском чемпионате Formula-3. Выступив в 33 гонках, Леклерк тринадцать
+                раз поднимался на подиум (четыре раза – на его высшую ступень) и по итогам сезона расположился на
+                четвёртой строчке с 363.5 набранными очками.</p>
+            <p>В 2016 год Шарль Леклерк попробовал себя в серии GP3, выступая за французскую команду ART Grand Prix, но
+                наиболее важным достижением стало получение места резервного пилота сразу в двух командах-участницах
+                Формулы 1 – Ferrari и Haas. В составе последнего коллектива молодой и перспективный монегаск уже успел
+                провести пятничную тренировку: это знаменательное событие произошло на автодроме Сильверстоун во время
+                Гран При Великобритании.</p>
+        </div>
+    </div>
+
+    <!--VERSTAPPEN INFO-->
+    <div id="verInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/ver-info.jpg" alt="">
+                <h2 class="text-center">Макс Ферстаппен</h2>
+            </p>
+            <p>Родился Макс 30 Сентября 1997 года в городе Хасселт, Бельгия. И кажется, он уже родился быстрым. Его
+                отец, Йос Ферстаппен, был гонщиком F1. Его мать, Софи, успешно
+                выступала в картинге. Уже в шесть лет младший Ферстаппен регулярно ездил на карте, а в восемь принял
+                участие в своем первом серьезном соревновании, где выиграл все заезды. К 2013 году Макс Ферстаппен
+                выиграл практические все титулы, которые можно было завоевать в картинге, и в 16 лет перешел в Formula
+                3. Там он не задержался, и уже в августе 2014 года, едва гонщику исполнилось 17 лет, дебютировал в
+                рамках официальной сессии уик-энда Формулы-1, став самым молодым пилотом в истории F1.</p>
+        </div>
+    </div>
+
+    <!--ALBON INFO-->
+    <div id="albInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/alb-info.jpg" alt="">
+                <h2 class="text-center">Алекс Албон</h2>
+            </p>
+            <p>
+                Родившийся и выросший в Великобритании и выросший с бывшим британским гонщиком для отца (Найджел Албон),
+                тем не менее Александр Албон в 2019 году становится только вторым гонщиком, представляющим Таиланд на
+                сетке F1 (после принца Бирабонга Бханудея Бханубанда, или «B Bira», в 1950-х).</p>
+            <p>
+                Это из-за тайской мамы Александра, и если мы пропустим B Bira, то Александр Албон будет первым гонщиком
+                Формулы-1, который будет гоняться под тайским флагом в современную эпоху.</p>
+            <p>
+                Альбон начал свою гоночную карьеру в картинге в возрасте всего восьми лет, завоевав свой первый местный
+                титул в 2005 году и продолжив успешную карьеру в спорте, включая титулы чемпионов мира и Европы в 2010
+                году. Оттуда он перешел на гонки на одноместных автомобилях в Формуле Renault 2.0 и Европейской Формуле
+                3, а затем объявил о себе в GP3 в 2016 году и после этого выступил в Формуле 2.</p>
+            <p>
+                После 10-го места в общем зачете в первой кампании Формулы-2 в 2017 году Albon усилил ее в 2018 году и
+                боролся за общий титул в преддверии финальной гонки года в Абу-Даби.
+
+                Он занял третье место в общем зачете с другими новичками Формулы-1 в 2019 году Джорджем Расселом
+                (Уильямс в 2019 году) и Ландо Норрисом (Макларен в 2019 году), и трио снова сражается, так как впервые с
+                2010 года топ-три в F2 закончили прямо к F1.
+            </p>
+
+        </div>
+    </div>
+
+    <!--RICCARDO INFO-->
+    <div id="ricInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/ric-info.jpg" alt="">
+                <h2 class="text-center">Даниэль Риккардо</h2>
+            </p>
+            <p>Австралийский автогонщик, который является действующим чемпионом Британской Формулы-3.</p>
+            <p>Риккардо начал заниматься картингом в возрасте девяти лет и принял участие во многочисленных картинговых
+                соревнованиях. В 2005 он присоединился к чемпионату Австралийской Формулы-Форд, где принял участие в
+                трёх гонок, но не в одной из них он не смог заработать очков. Однако в следующем году, он выиграл грант
+                на участие в азиатской чемпионате Формулы-БМВ с командой Eurasia Motorsport. В чемпионате состоявшем из
+                19 гонок, молодой австралиец одержал 2 победы, обе на трассе Бира, а также заработал поул-позицию на
+                трассе Чжухай на протяжении своего дебютного сезона, где он занял третье место в зачёте пилотов с 231
+                очками, отстав на 59 очков от чемпиона Эрла Бамбера.</p>
+            <p>Риккардо совершил свой дебют за рулём болида Формулы-1, за команду Red Bull Racing на тестах молодых
+                пилотов в Хересе в течение трёх дней с 1 по 3 декабря. В последний день, Даниэль показал быстрейшее
+                время тестов, опередив всех на секунду. Это сделало его единственным гонщиком который смог попасть в
+                1:17. Руководитель команды Red Bull Racing Кристиан Хорнер предположил что Риккардо заменит напарника по
+                Формуле-Рено 3.5 2010 Хартли, в качестве тест и запасного пилота команды. В итоге Риккардо и Хартли
+                будут разделять обязанности тест-пилотов за команду Red Bull и за сестринскую Scuderia Toro Rosso.</p>
+
+        </div>
+    </div>
+
+    <!--HULKINBERG INFO-->
+    <div id="hulInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/hul-info.jpg" alt="">
+                <h2 class="text-center">Нико Хюлькенберг</h2>
+            </p>
+            <p>Хюлькенберг дебютировал в картинге в 1997, когда ему было 10 лет. В 2002 он был чемпионом Германии среди
+                юниоров, а на следующий год выиграл чемпионат Германии.</p>
+            <p>В 2005 он дебютировал в Немецкой Формуле-БМВ. Его первый сезон был очень успешный, он доминировал по ходу
+                сезона и без проблем добился титула. Он финишировал первым в мировом финале Формулы-БМВ, но был лишён
+                победы после испытания тормозов на своих соперниках.</p>
+            <p>Действующим менеджером Нико является Вилли Вебер, который долгое время был менеджером Михаэля Шумахеа.
+                Вебер на интервью сказал что Хюлькенберг будет готов к Формуле-1 в 2008. Также он похвалил немца назвав
+                его "невероятным талантом" и сказал что напоминает Шумахера в молодости.</p>
+            <p>Его безупречная работа на тестах впечатлила команду Williams и она предоставила ему место тест-пилота на
+                сезон 2008 года. В конце 2008 года Williams подтвердила продление контракта на сезон 2009 года.</p>
+            <p>Сейчас Нико является напарником Даниэля Риккардо в "Рено".</p>
+        </div>
+    </div>
+
+    <!--SAINZ INFO-->
+    <div id="saiInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/sai-info.jpg" alt="">
+                <h2 class="text-center">Карлос Сайнс</h2>
+            </p>
+            <p>Карлос Сайнс Васкес де Кастро, известный как Карлос Сайнс-младший или просто Карлос Сайнс (родился 1
+                сентября 1994 года) - испанский гонщик Формулы-1 и сын бывшего двукратного чемпиона мира по ралли
+                Карлоса Сайнса.</p>
+            <p>Сайнс родился в Мадриде и начал свою карьеру в картинге. В 2008 году он выиграл титул в
+                Азиатско-Тихоокеанском регионе KF3, а также занял второе место в чемпионате Испании. В 2009 году он
+                выиграл престижный Кубок юниоров в Монако по картингу и занял второе место на чемпионате Европы KF3.</p>
+            <p>В сезоне 2012 года Сайнс участвовал в чемпионатах Формулы-3 Великобритании и Евросерии. Он выиграл пять
+                гонок и девять раз финишировал на подиуме, забив поул-позицию, в британском чемпионате, заняв шестое
+                место. Он только что выиграл два подиума и две поул-позиции в чемпионате Евросерии, на первом месте,
+                заняв девятое место в общем зачете.</p>
+            <p>16 августа 2018 года было объявлено, что Сайнс будет гоняться за McLaren с 2019 года, заменив Фернандо
+                Алонсо, который уходит из Формулы-1 в конце 2018 года.</p>
+        </div>
+    </div>
+
+    <!--NORRIS INFO-->
+    <div id="norInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/nor-info.jpg" alt="">
+                <h2 class="text-center">Ландо Норрис</h2>
+            </p>
+            <p>Ландо родился в очень обеспеченной семье. Его отец Адам Норрис – бывший управляющий директор финансовой
+                компании Hargreaves Lansdown, меценат и инвестор, вкладывающий деньги в перспективный бизнес. Не
+                удивительно, что поначалу болельщики Великобритании частенько называли Ландо избалованным мальчиком «с
+                золотой ложкой во рту», который всегда получает то, что хочет. Тем не менее, в своих интервью он создает
+                впечатление скорее задумчивого и рассудительного взрослого человека, чем капризного ребенка.</p>
+            <p>Ландо получил частное образование в Миллфилдской школе в графстве Сомерсет. Позже его семья переехала в
+                Гластонбери, чтобы облегчить ему учёбу и помочь продвинуться в гоночной карьере.</p>
+            <p>В 2016 году Норрис выиграл престижную награду McLaren Autosport BRDC Young Driver, что дало ему контракт
+                на симуляторах McLaren в течение следующего года и членство в BRDC. Уже в августе 2017 года Норрис
+                становится тестовым и резервным пилотом McLaren. В 2018 он проводит несколько тестовых и свободных
+                практик в машине Формулы 1 McLaren. А 3 сентября этого же года команда объявляет, что Норрис в 2019 году
+                присоединится к McLaren в качестве гонщика Формулы-1.</p>
+        </div>
+    </div>
+
+    <!--PEREZ INFO-->
+    <div id="perInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/per-info.jpg" alt="">
+                <h2 class="text-center">Серхио Перез</h2>
+            </p>
+            <p>Cерхио Перес – это мексиканский автогонщик, который родился 26 декабря 1989 года в городе Гуадалайра. Он
+                является младшим братом гонщика Антонио Переса, который участвовал в гонках NASCAR Corona Series.</p>
+            <p>В 2007 году Перес перешел в британскую Формулу-3. Там он представлял команду Т-Sport. Две трети гонок
+                стали для него выигрышными, и он получил много поулов. В 2008 году он продолжает одерживать победы,
+                возможно, благодаря тому, что на его болиде теперь стоит двигатель Mugen Honda. В итоге он занял
+                четвертую позицию в зачете.</p>
+            <p>В 2011 Перес наконец осуществил свою мечту и попал в Формулу-1, став пятым мексиканцем в истории Ф-1. Он
+                довольно быстро зарекомендовал себя и дважды даже занял второе место. Это позволило ему перебраться в
+                McLaren, однако здесь его ожидало разочарование: в команду британцев он влиться не сумел и выше пятого
+                места не занимал, поэтому через год контракт был расторгнут. А вот сотрудничество с Force India стало
+                намного более удачным для молодого мексиканца, и оно продолжается по сей день.
+
+                У Серхио имидж агрессивного гонщика и конфликтного парня. В 2013 году на соревнованиях в Монако
+                произошёл конфликт Переса с Кими Райкконеном, и напряжённые отношения сохраняются между пилотами до сих
+                пор.</p>
+        </div>
+    </div>
+
+    <!--STROLL INFO-->
+    <div id="strInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/str-info.jpg" alt="">
+                <h2 class="text-center">Лэнс Стролл</h2>
+            </p>
+            <p>Канадский гонщик. Родился 29 октября 1998 года. Дебютировал в Формуле 1 в марте 2017 в составе Williams.
+                Отец Стролла – бизнесмен, состояние которого оценивается в 2,4 миллиарда долларов, и молодой канадец
+                вряд ли пришел в Williams без финансовой поддержки. Но пока создается впечатление, что Лэнс Стролл это
+                один из тех случаев, когда в одном гонщике сошлись талант и соответствующие амбициям финансовые
+                возможности.</p>
+            <p>Лэнс Стролл унаследовал не только миллионы своего отца, но и его любовь к гонкам. Он начал
+                профессионально заниматься картингом в 9 лет и сразу же, в 2008 году, выиграл Кубок Монреаля и Кубок
+                Квебека в классе Micro Max, а также национальный канадский чемпионат – в Rotax Micro Max.</p>
+            <p>В 2014 Стролл начал выступать в европейской Формуле 3 и практически не имел себе равных. Уже к середине
+                сезона он уверенно лидировал в чемпионате, а в концовке сезона просто уничтожил конкурентов, выиграв
+                пять гонок подряд. Победа в Формуле 3 дала Строллу баллы, необходимые для суперлицензии.</p>
+            <p>Сам Лэнс в разговорах с журналистами продолжает скромничать и намекать на то, что не все решают деньги и
+                связи отца:
+
+                «Есть много гонщиков, способных выступать в Формуле 1, но они не получают шанса. Есть только 22
+                свободных места. Тяжело получить право занять одно из них»</p>
+        </div>
+    </div>
+
+    <!--KVYAT INFO-->
+    <div id="kvyInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/kvy-info.jpg" alt="">
+                <h2 class="text-center">Даниил Квят</h2>
+            </p>
+            <p>Даниил Квят родился 26 апреля 1994 года в Уфе. В 8 лет он сел за руль карта, а в 2005 году дебютировал на
+                нем в чемпионате России, где занял 12-е место.</p>
+            <p>Уже спустя год Даниил активно принимал участие в европейских чемпионатах.
+
+                В 2009 году Квят занял второе место на престижных соревнованиях WSK International Series и третье место
+                на чемпионате Европы по картингу в юношеском классе KF3. Этот успех привлек внимание Хельмута Марко –
+                руководителя программы Red Bull Junior Team, которая поддерживает талантливых молодых пилотов. Так Квят
+                оказался в юниорской команде Red Bull. В 2010 году Даниил дебютировал в серии Formula BMW, где в восьми
+                гонках завоевал две победы и пять подиумов. Через два года он уже занял второе место в чемпионате
+                Formula Renault 2.0. В 2013 году Даниил перешел в серию GP3 и одержал досрочную победу в первом же
+                сезоне. Впечатляющее достижение привело его в Формулу-1. 21 октября 2013-го команда Scuderia Toro Rosso
+                объявила, что Квят будет ее основным пилотом. 16 марта 2014 года Квят самым молодым гонщиком в истории
+                чемпионата Формулы-1, набравшим очки. В своем дебютном Гран-при Австралии Даниил приехал девятым. Ему
+                было всего 19 лет.</p>
+            <p>В 2018 году болельщиков порадовала новость: Квят возвращается в команду Торо Россо и уже подписал с ней
+                контракт.</p>
+            <p>В 2015-16 годах дважды поднимался на подиум этапов чемпионата мира в классе Формула-1. В сезоне-2019
+                выступает за Toro Rosso, регулярно финишируя в очковой зоне и опережая партнёра по команде.</p>
+        </div>
+    </div>
+
+    <!--GASLY INFO-->
+    <div id="gasInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/gas-info.jpg" alt="">
+                <h2 class="text-center">Пьер Гасли</h2>
+            </p>
+            <p>Французский автогонщик, который за рулем Toro Rosso.</p>
+            <p>Карьера Пьера Гасли в автоспорте началась в возрасте 10 лет, когда он занял 15-е место на чемпионате
+                Франции по мини-футболу 2006 года. Затем, в 2007 году, он быстро прогрессировал, закончив сезон на
+                шестом месте в той же серии. Год спустя Газли снова поднялся на четвертое место, прежде чем его гоночная
+                карьера взорвалась. Будучи членом возрастной группы FFSA в возрасте 10–15 лет, Гасли был выбран в
+                сборную Франции в 2010 году. Благодаря поддержке гоночной команды Sodi он сделал KF3 своим главным
+                приоритетом наряду с гонками в Евросерии WSK, чемпионате Европы и Кубок мира.</p>
+            <p>Газли продолжал улучшать свои гоночные показатели, и в 2011 году он стал участником французского
+                чемпионата F4. 2012 год стал таким же обнадеживающим годом в соревнованиях в Формуле Renault 2.0 Затем,
+                в октябре 2013 года, после тяжелой битвы с Оливером Роуландом, Гасли выиграл еврокубок Формулы Renault
+                2.0, став самым молодым гонщиком, получившим титул. В 2014 году он кратко соревновался в серии Formula
+                Renault 3.5 с Arden Motorsport Кристиана Хорнера, достигнув впечатляющего второго места в общем зачете,
+                прежде чем перейти на серию GP2 с Caterham Racing. Газли занял восьмое место в общем зачете в серии GP2
+                2015 года (DAMS Dallara-Mecachrome) с четырьмя подиумами и тремя поул-позициями.</p>
+            <p>Эти достижения проложили путь к его продвижению в качестве запасного пилота для команды Red Bull Racing
+                Formula One, приблизив его на один шаг к мечте о достижении славы Формулы-1. В 2016 году он выиграл
+                титул чемпиона мира GP2, выступая за команду PREMA Racing. Получив первый титул чемпиона мира уже к 20
+                годам, в 2017 году Гасли поставил перед собой новый вызов, выступив в Японии за гонку Супер Формулы для
+                команды Mugen / Honda в сочетании со своей продолжительной ролью резервного гонщика в Red Bull Racing.
+            </p>
+            <p>Его отличное начало карьеры в Формуле-1 привело к тому, что в сезоне 2019 года Рэд Булл расстрелял Гасли,
+                где он присоединился к Максу Ферстаппену в первой половине сезона. После летнего перерыва, начиная с
+                бельгийского Гран-при, Гасли переключился на Scuderia Toro Rosso, когда Aston Martin Red Bull Racing
+                надеялись принять информированное решение о том, кто станет партнером Макса Ферстаппена в 2020 году.</p>
+        </div>
+    </div>
+
+    <!--KIMI INFO-->
+    <div id="raiInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/rai-info.jpg" alt="">
+                <h2 class="text-center">Кими Райкконен</h2>
+            </p>
+            <p>Полное имя спортсмена — Кими Матиас Райкконен. Будущий гонщик родился 17 октября 1979 года в местечке
+                Эспоо, что неподалеку от Хельсинки.</p>
+            <p>Кими, по прозвищу «Ледяной человек», выиграл чемпионат мира Формулы-1 FIA 2007 года в своем первом сезоне
+                на Scuderia Ferrari. После девяти сезонов гонок в Формуле-1 он участвовал в Чемпионате мира по ралли в
+                2010 и 2011 годах, а затем вернулся в Формулу-1 в 2012 году. Помимо своего титула, Райкконен также
+                финишировал вторым в общем зачете в 2003 и 2005 годах и третьим в 2008, 2012 и 2018 годах. До сезона
+                2019 года Райкконен выиграл 21 Гран-при, что делает его финским гонщиком Формулы-1 с наибольшим
+                количеством побед в гонках. Он является единственным гонщиком, который одержал победу в гонках V10, V8 и
+                гибридных двигателей V6.</p>
+            <p>Райкконен вошел в Формулу-1 в качестве постоянного пилота Sauber-Petronas в 2001 году, проведя всего 23
+                гонки за его поясом. Он присоединился к McLaren Mercedes в 2002 году и стал претендентом на звание,
+                заняв второе место на чемпионате с Михаэлем Шумахером в 2003 году и Фернандо Алонсо в 2005 году.
+                Благодаря его переходу в Ferrari в 2007 году он был коронован как чемпион мира среди гонщиков Формулы-1,
+                обыграв обоих пилотов McLaren. Льюис Хэмилтон и Фернандо Алонсо по одному очку. В 2008 году он во второй
+                раз вошел в число самых быстрых кругов в сезоне.</p>
+            <p>Райкконен покинул Scuderia Ferrari и спорт после сезона 2009 года. По возвращении в Формулу-1 он поехал в
+                Lotus в 2012 и 2013 годах. 11 сентября 2013 года Ferrari объявила о своем повторном подписании Räikkönen
+                по двухлетнему контракту, начиная с сезон 2014 Этот контракт был продлен до конца сезона 2018 года.
+                После возвращения в Ferrari у Райкконена было более четырех лет без побед, пока он не выиграл Гран-при
+                Соединенных Штатов в 2018 году и завершил свою восьмилетнюю карьеру в Ferrari, заняв третье место в
+                общем зачете в чемпионате 2018 года.</p>
+            <p>Сейчас Кими гоняется в Alfa Romeo Racing.</p>
+        </div>
+    </div>
+
+    <!--GIOVINACCI INFO-->
+    <div id="gioInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/gio-info.jpg" alt="">
+                <h2 class="text-center">Антонио Джовинацци</h2>
+            </p>
+            <p>Антонио Джовинацци по прозвищу «Джови» - молодой и очень талантливый итальянский гонщик. В 2015 году он
+                занял второе место на чемпионате Европы FIA Формулы-3 и побежал с Премой в международной серии GP2 2016
+                года, снова заняв второе место с пятью победами и восемью общими подиумами. Не случайно Scuderia Ferrari
+                выбрала его в качестве третьего пилота своей команды Формулы-1 в сезоне 2017 года. Антонио довел свою
+                карьеру до славы благодаря незначительным формулам, блестящим на чемпионате Европы FIA Formula 3 и
+                международной серии GP2.</p>
+            <p>Джовинацци дебютировал за Sauber на Гран-при Австралии 2017 года, заменив Паскаля Верляйна, которого он
+                также заменил на следующем Гран-при Китая, так как Верляйн продолжал восстанавливаться после
+                предсезонной аварии.
+
+                Теперь Антонио ведет свой первый полный сезон в Формуле-1 в Alfa Romeo Racing.</p>
+        </div>
+    </div>
+
+    <!--GROJEAN INFO-->
+    <div id="groInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/gro-info.jpg" alt="">
+                <h2 class="text-center">Роман Грожан</h2>
+            </p>
+            <p>Ромен Грожан родился в Швейцарии, но участвует в гонках по французской лицензии - автоспорт был запрещен
+                в его стране рождения в 1950-х годах.</p>
+            <p>Он присоединился к Renault в качестве тест-пилота в 2008 году после победы в Евросерии Формулы-3 в 2007
+                году. Грожан ранее был одним из пилотов по развитию команды.</p>
+            <p>Первый полный сезон Формулы-1 в 2011 году за команду Lotus Грожана продемонстрировал многообещающие
+                результаты, а также слишком много стремительности. Определяющий момент наступил в Бельгии, где он вызвал
+                аварию с четырьмя автомобилями, которая привела к тому, что он был дисквалифицирован на одну гонку.
+                Тяжесть наказания была вызвана отчасти тем, что в инциденте участвовали претенденты на первенство.</p>
+            <p>29 сентября 2017 года на пресс-конференции в штаб-квартире Haas F1 Team в Каннаполисе, штат Северная
+                Каролина, было объявлено, что Грожан станет пилотом команды Haas F1 Team - первой за 30 лет командой
+                Формулы-1, возглавляемой американцами.</p>
+        </div>
+    </div>
+
+    <!--MAGNUSSEN INFO-->
+    <div id="magInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/mag-info.jpg" alt="">
+                <h2 class="text-center">Кевин Магнуссен</h2>
+            </p>
+            <p>Кевин Магнуссен – датский гонщик, дата рождения – 5 октября 1992 года, место рождения – Дания, Роскиппе.
+            </p>
+            <p>Как и многие гонщики Формулы-1, путешествие Магнуссена в автоспорте началось с картинга, а затем он
+                перешел на более крупные и мощные машины с открытым колесом. Награды были быстро заработаны, когда
+                Магнуссен переехал за пределы Дании, чтобы участвовать в гонках по всей Европе на традиционных полигонах
+                Формулы-1.</p>
+            <p>Наблюдая за гоночной карьерой своего отца Яна Магнуссена, Кевин решил, что тоже станет гонщиком. Свое
+                выступление на гоночных трассах он начал в картинге, где потом провел ряд сезонов. В 2006 году он
+                выигрывает победный титул в Северо-Европейском чемпионате класса ICA Junior и чемпионате Peugeot Super
+                Kart. В 2008 году он дебютирует в Формуле-Renault, а затем и на трассах Формулы Форд. Ему удается стать
+                чемпионом национального чемпионата Дании, одержав 11 безоговорочных побед. Проведя одну гонку в
+                североевропейском чемпионате Formula Ford, ему без труда удается подняться на верхнюю ступень
+                пьедестала. В этом же сезоне он неоднократно выходит на старт серии ADAC Formel Masters и два раза
+                завоевывает подиум.</p>
+            <p>Магнуссен присоединился к американской команде Haas F1 Team для своего третьего полного сезона в
+                Формуле-1. Кевин Магнессен, ранее выступавший за такие команды Формулы-1, как McLaren и Renault, теперь
+                является пилотом команды Haas F1 вместе со своим товарищем по команде Романом Грожаном.</p>
+        </div>
+    </div>
+
+    <!--RUSSEL INFO-->
+    <div id="rusInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/rus-info.jpg" alt="">
+                <h2 class="text-center">Джордж Рассел</h2>
+            </p>
+            <p>Джордж Рассел - гонщик Формулы-1, выступающий за команду Williams Racing, дебютирующий в гонках Формулы-1
+                в 2019 году.
+            </p>
+            <p>Джордж - 20-летняя британская гоночная звезда из Кингс Линн. Его карьера началась с успешных выступлений
+                в картинге в 2006 году. Его талант был очевиден с самого раннего возраста.</p>
+            <p>В 2018 году Джордж выступал на в Формуле 2, а также совмещал свои обязанности в качестве
+                запасного пилота Mercedes-AMG Petronas Motorsport.
+                В Формуле-2 Рассел одержал больше побед, чем любой другой гонщик, а также на его счету больше всех
+                поул-позиций, кругов лидирования,
+                а также общего количества подиумов, несмотря на многочисленные проблемы с ненадежностью.</p>
+            <p>12 октября 2018 года было объявлено, что Джордж будет участвовать в многолетнем соглашении на чемпионате
+                мира FIA Формулы-1 2019 года с Williams Racing.</p>
+        </div>
+    </div>
+
+    <!--KUBICA INFO-->
+    <div id="kubInfo" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p class="text-center"><img src="img/kub-info.jpg" alt="">
+                <h2 class="text-center">Роберт Кубица</h2>
+            </p>
+            <p>Роберт Кубица - родился в 1984 году в Кракове. Гонщик Первый и пока единственный поляк, участвовавший в
+                чемпионате Ф1.
+            </p>
+            <p>Свою карьеру водителя он начал в 6 лет с картинга, а в 10 лет стал чемпионом Польши среди юниоров. </p>
+            <p>В 2005 году он подписал контракт с командой Формулы-1 BMW Sauber, где в итоге стал ведущим гонщиком
+                команды. С 2010 года он представлял цвета Renault F1. 6 февраля 2011 года во время Ронде ди Андора
+                Кубица попал в серьезную аварию. После 7-часовой операции в итальянской больнице Роберт смог не только
+                восстановиться, но и вернуться в большие гонки.</p>
+            <p>В ноябре 2017 года он вернулся к испытаниям в Формуле 1 в качестве гонщика Williams.</p>
+        </div>
+    </div>
+    <!--End Popup blocks-->
+
+
+    <!--//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+    <!--Script source files-->
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.6.1/js/all.js"></script>
+</body>
+
+</html>

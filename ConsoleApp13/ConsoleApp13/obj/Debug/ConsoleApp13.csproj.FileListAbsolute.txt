@@ -1,0 +1,6 @@
+D:\bstu\II\1 sem\Лабораторные ООП\2 часть\13\ConsoleApp13\ConsoleApp13\bin\Debug\ConsoleApp13.exe.config
+D:\bstu\II\1 sem\Лабораторные ООП\2 часть\13\ConsoleApp13\ConsoleApp13\bin\Debug\ConsoleApp13.exe
+D:\bstu\II\1 sem\Лабораторные ООП\2 часть\13\ConsoleApp13\ConsoleApp13\bin\Debug\ConsoleApp13.pdb
+D:\bstu\II\1 sem\Лабораторные ООП\2 часть\13\ConsoleApp13\ConsoleApp13\obj\Debug\ConsoleApp13.csprojAssemblyReference.cache
+D:\bstu\II\1 sem\Лабораторные ООП\2 часть\13\ConsoleApp13\ConsoleApp13\obj\Debug\ConsoleApp13.exe
+D:\bstu\II\1 sem\Лабораторные ООП\2 часть\13\ConsoleApp13\ConsoleApp13\obj\Debug\ConsoleApp13.pdb

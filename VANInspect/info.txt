@@ -1,0 +1,17 @@
+﻿папки диска D: 
+$RECYCLE.BIN
+bstu
+Config.Msi
+download
+games
+music
+photos&videos
+Program Files (x86)
+programs
+SteamLibrary
+System Volume Information
+Windows
+
+файлы диска D: 
+pagefile.sys
+Локальный диск (C) - Ярлык.lnk
